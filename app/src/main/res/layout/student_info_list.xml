@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="15dp">
+
+    <ImageView
+        android:layout_marginRight="10dp"
+        android:id="@+id/img1"
+        android:layout_width="80dp"
+        android:src="@drawable/ak"
+        android:layout_height="80dp"
+        />
+
+    <TextView
+        android:id="@+id/txtName"
+        android:layout_width="match_parent"
+        android:layout_toRightOf="@+id/img1"
+        android:textSize="20dp"
+        android:layout_height="wrap_content"
+        android:text="Akshata Bhosale"/>
+
+    <TextView
+        android:id="@+id/txtclgname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/img1"
+        android:text="College Name:"
+        android:textSize="20dp"/>
+
+    <TextView
+        android:id="@+id/txtcourse"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtclgname"
+        android:text="Course Name :"
+        android:textSize="20dp"/>
+
+    <TextView
+        android:id="@+id/txtbranch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtcourse"
+        android:text="Branch             :"
+        android:textSize="20dp"/>
+    <TextView
+        android:id="@+id/txtaddress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtbranch"
+        android:text="Address          :"
+        android:textSize="20dp"/>
+
+    <TextView
+        android:id="@+id/txtJSPM"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtName"
+        android:layout_alignBaseline="@+id/txtclgname"
+        android:layout_toRightOf="@id/txtclgname"
+        android:textSize="20dp"/>
+
+
+    <TextView
+        android:id="@+id/txtbe"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtJSPM"
+        android:layout_alignBaseline="@+id/txtcourse"
+        android:layout_toRightOf="@id/txtcourse"
+        android:textSize="20dp"/>
+
+    <TextView
+        android:id="@+id/txtcomp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtbe"
+        android:layout_alignBaseline="@+id/txtbranch"
+        android:layout_toRightOf="@id/txtbranch"
+        android:textSize="20dp"/>
+
+    <TextView
+        android:id="@+id/txtpune"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtbranch"
+        android:layout_alignBaseline="@+id/txtaddress"
+        android:layout_toRightOf="@id/txtaddress"
+        android:textSize="20dp"/>
+
+</RelativeLayout>
